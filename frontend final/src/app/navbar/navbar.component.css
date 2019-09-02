@@ -1,0 +1,35 @@
+#logo img {
+    max-height: 58px;
+    max-width: 200px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+
+#navbarSupportedContent {
+    margin-left: 800px;
+    margin-top: 20px;
+    font-stretch: expanded; 
+    
+}
+
+
+#navbarSupportedContent ul {
+    text-transform: uppercase;
+   
+}
+
+.my-nav{
+    background-color:	rgb(191,191,248);
+    /* rgb(190, 222, 233) */
+}
+ .my-nav .nav-link{
+     color:whitesmoke;
+ }
+
+ .my-nav .nav-link:hover{
+    color:antiquewhite;
+}
+.btn{
+    margin-left: 5px;
+}

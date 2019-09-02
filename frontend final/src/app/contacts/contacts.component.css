@@ -1,0 +1,29 @@
+.title{
+   
+    margin-left: 0px;
+    margin-bottom: 40px; 
+}
+
+.contacts{
+    height: 400px;
+    margin-top: 135px;
+    /* background-color: #f6f6f6; */
+}
+.contact1{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.contact{
+    margin-left:100px;
+}
+
+img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    border-style: none;
+    height:70px;
+}
+
+
+

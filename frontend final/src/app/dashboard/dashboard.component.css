@@ -1,0 +1,70 @@
+.table{
+   margin-top : 100px;
+   margin-left: 10px;
+   width: 750px;
+   height: 300px;
+
+}
+
+.btn{
+    margin-left: 0px;
+    size: 00px;
+}
+.input-group{
+    margin-left: 150px;
+}
+.add{
+    margin-top: 15px;
+    margin-left: 150px;
+}
+.custom-file{
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 565px;
+  }
+.btn1{
+    margin-left: 800px;
+}
+
+textarea{
+    width: 480px;
+    height: 380px;
+    margin-left: 940px;
+    margin-bottom: 10px;
+}
+
+h5{
+    margin-left: 940px;
+}
+
+p{
+    margin-left: 1000px;
+}
+
+.btn1{
+    margin-left: 1300px;
+
+}
+
+.result{
+    position: fixed;
+    
+} 
+
+
+
+/*#main{
+    display: flex;
+    justify-content: space-between;
+}*/
+/* #main {
+    width: 100%; height: 100vh;
+    background: rgb(247, 243, 243);
+    flex: 1;
+    overflow: hidden;
+  } */
+
+/* .p{
+    margin-left: 50%;
+} */
+  

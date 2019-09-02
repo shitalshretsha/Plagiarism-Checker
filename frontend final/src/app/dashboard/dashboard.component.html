@@ -1,0 +1,50 @@
+<div id="main">
+  <div id="table" style="height: 0px;">
+    <table mdbTable mdbTableScroll scrollY="true" class="table table-hover">
+      <thead>
+
+        <tr>
+          <th scope="col">Std_id</th>
+          <th scope="col">Student Name</th>
+          <th scope="col">Assignment Name</th>
+          <th scope="col">Compare</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr>
+          <tr *ngFor="let name of nameList; let i = index">
+            <td>
+              {{name.stdId}}
+            </td>
+            <td>
+              {{name.studentName}}
+            </td>
+            <td>{{i+1}} - {{name.filename}}</td>
+            <td>
+              <button class="btn btn-info" (click)="compare(name.id)">Compare</button>
+            </td>
+            <td>
+              <button class="btn btn-danger" (click)="delete(name.id)">Delete</button>
+            </td>
+          </tr>
+
+      </tbody>
+
+    </table>
+  </div>
+
+  <div class="result" style="height:50px;">
+    <h5>The plagiarised words are :</h5>
+    <label for="textarea"></label>
+    <textarea class="form-control rounded-1" placeholder="The plagiarized words will appear here" id="area" rows="10" cols="80">
+        {{plag || ''}}
+      </textarea>
+       <h5><b><font size=+2>The percentage is {{plagPercentage}}%</font></b> </h5>
+    <div>
+      <button type="button" class="btn1 btn-outline-primary btn-m" (click)="logout()">Logout</button>
+    </div>
+  </div>
+</div>
+

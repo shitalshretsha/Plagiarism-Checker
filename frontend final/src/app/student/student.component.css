@@ -1,0 +1,59 @@
+.home{
+    height: 650px;
+}
+.bg-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+  
+textarea {
+    width: 610px;
+    height: 320px;
+    margin-left: 430px;
+    margin-right: auto;
+    margin-top: 90px;
+}
+.custom-file{
+  margin-top: 15px;
+  margin-left: 370px;
+  margin-right: 15px;
+}
+.custom-file{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 390px;
+    margin-top: 15px;
+
+}
+textarea#area1{
+    margin-bottom: 0px;
+}
+
+#check{
+    margin-left: 700px;
+} 
+.form{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    /* margin-right: 390px; */
+    margin-top: 0px;
+    margin-left: 380px;
+
+}
+#username{
+    margin-left: 10px;
+}
+
+#userid{
+    margin-left: 39px;
+}
